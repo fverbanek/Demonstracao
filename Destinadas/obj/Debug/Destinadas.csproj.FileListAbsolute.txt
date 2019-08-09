@@ -4,7 +4,6 @@ C:\Users\felipe.vebanek\source\repos\Destinadas\Destinadas\bin\Debug\Destinadas.
 C:\Users\felipe.vebanek\source\repos\Destinadas\Destinadas\bin\Debug\RestSharp.dll
 C:\Users\felipe.vebanek\source\repos\Destinadas\Destinadas\bin\Debug\RestSharp.xml
 C:\Users\felipe.vebanek\source\repos\Destinadas\Destinadas\obj\Debug\Destinadas.csprojAssemblyReference.cache
-C:\Users\felipe.vebanek\source\repos\Destinadas\Destinadas\obj\Debug\Destinadas.Form1.resources
 C:\Users\felipe.vebanek\source\repos\Destinadas\Destinadas\obj\Debug\Destinadas.Properties.Resources.resources
 C:\Users\felipe.vebanek\source\repos\Destinadas\Destinadas\obj\Debug\Destinadas.csproj.GenerateResource.cache
 C:\Users\felipe.vebanek\source\repos\Destinadas\Destinadas\obj\Debug\Destinadas.csproj.CoreCompileInputs.cache
@@ -27,3 +26,7 @@ C:\Project\Demonstracao\Destinadas\obj\Debug\Destinadas.pdb
 C:\Project\Demonstracao\Destinadas\bin\Debug\Newtonsoft.Json.dll
 C:\Project\Demonstracao\Destinadas\bin\Debug\Newtonsoft.Json.xml
 C:\Project\Demonstracao\Destinadas\obj\Debug\Destinadas.Invoices.resources
+C:\Users\felipe.vebanek\source\repos\Destinadas\Destinadas\bin\Debug\Newtonsoft.Json.dll
+C:\Users\felipe.vebanek\source\repos\Destinadas\Destinadas\bin\Debug\System.Json.dll
+C:\Users\felipe.vebanek\source\repos\Destinadas\Destinadas\bin\Debug\Newtonsoft.Json.xml
+C:\Users\felipe.vebanek\source\repos\Destinadas\Destinadas\obj\Debug\Destinadas.Destinadas.resources

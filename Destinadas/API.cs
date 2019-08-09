@@ -42,6 +42,26 @@ namespace Destinadas
             return retorno.Content;
         }
 
+        public string RetornaXml(string key)
+        {
+            string url;
+            IRestResponse retorno;
+
+            url = "https://app.notasegura.com.br/api/invoices/export?token=" + Token + "&invoice_key=" + key + "&mode=XML";
+            var client = new RestClient(url);
+            var request = new RestRequest(Method.GET);
+
+            request.AddHeader("Postman-Token", "482c5917-475e-4c5c-8ead-af39a739bdb3");
+            request.AddHeader("cache-control", "no-cache");
+            request.AddHeader("Authorization", "Basic " + Auth);
+
+            retorno = client.Execute(request);
+
+            return retorno.Content;
+        }
+
+        
+
         
     }
 }
