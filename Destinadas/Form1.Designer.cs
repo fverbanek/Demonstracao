@@ -40,6 +40,9 @@
             this.txtDtFinal = new System.Windows.Forms.MaskedTextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.Key = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // btnConsulta
@@ -54,10 +57,10 @@
             // 
             // txtRetorno
             // 
-            this.txtRetorno.Location = new System.Drawing.Point(12, 188);
+            this.txtRetorno.Location = new System.Drawing.Point(12, 159);
             this.txtRetorno.Multiline = true;
             this.txtRetorno.Name = "txtRetorno";
-            this.txtRetorno.Size = new System.Drawing.Size(540, 132);
+            this.txtRetorno.Size = new System.Drawing.Size(540, 100);
             this.txtRetorno.TabIndex = 1;
             // 
             // txtLogin
@@ -145,11 +148,31 @@
             this.label5.TabIndex = 12;
             this.label5.Text = "Data final";
             // 
+            // dataGridView1
+            // 
+            this.dataGridView1.AllowUserToAddRows = false;
+            this.dataGridView1.AllowUserToDeleteRows = false;
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.Key});
+            this.dataGridView1.Location = new System.Drawing.Point(12, 265);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.ReadOnly = true;
+            this.dataGridView1.Size = new System.Drawing.Size(540, 123);
+            this.dataGridView1.TabIndex = 13;
+            // 
+            // Key
+            // 
+            this.Key.HeaderText = "Chave xml";
+            this.Key.Name = "Key";
+            this.Key.ReadOnly = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.txtDtFinal);
@@ -164,6 +187,7 @@
             this.Controls.Add(this.btnConsulta);
             this.Name = "Form1";
             this.Text = "Form1";
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -183,6 +207,8 @@
         private System.Windows.Forms.MaskedTextBox txtDtFinal;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Key;
     }
 }
 
